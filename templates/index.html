@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="..\static\css\styles.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">LIVER PREDICTION</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="page.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Prediction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <form action="/index" method="post">
+                   <div class='row'>
+           
+                       <div class='col'>
+                           <p>AGE </p>
+                           <input type="text" name="AGE"></p>
+                           <p>Gender </p>
+                           <input type="text" name="Gender"></p>
+                           <p>Place(location where the patient lives) </p>
+                           <p> <input type="text" name="Place(location where the patient lives)" /> </p>
+                           <p>Duration of alcohol consumption(years) </p>
+                           <p> <input type="text" name="Duration of alcohol consumption(years)" /> </p>
+                           <p>Quantity of alcohol consumption (quarters/day) </p>
+                           <p> <input type="text" name="Quantity of alcohol consumption (quarters/day)" /> </p>
+                           <p>Type of alcohol consumed </p>
+                           <p> <input type="text" name="Type of alcohol consumed" /> </p>
+                           <p>Blood pressure (mmhg) </p>
+                           <p> <input type="text" name="Blood pressure (mmhg)" /> </p>
+                           <p>Obesity </p>
+                           <p> <input type="text" name="Obesity" /> </p>
+                           <p>Family history of cirrhosis/ hereditary </p>
+                           <p> <input type="text" name="Family history of cirrhosis/ hereditary" /> </p>
+                           <p>Hemoglobin (g/dl) </p>
+                           <p> <input type="text" name="Hemoglobin  (g/dl)" /> </p>
+                           <p>PCV (%) </p>
+                           <p> <input type="text" name="PCV  (%)" /> </p>
+                       </div>
+           
+                       <div class='col'>
+           
+           
+           
+           
+                           <p>RBC (million cells/microliter) </p>
+                           <p> <input type="text" name="RBC  (million cells/microliter)" /> </p>
+                           <p>MCV (femtoliters/cell) </p>
+                           <p> <input type="text" name="MCV   (femtoliters/cell)" /> </p>
+                           <p>MCH (picograms/cell) </p>
+                           <p> <input type="text" name="MCH  (picograms/cell)" /> </p>
+                           <p>MCHC (grams/deciliter) </p>
+                           <p> <input type="text" name="MCHC  (grams/deciliter)" /> </p>
+                           <p>Total Count </p>
+                           <p> <input type="text" name="Total Count" /> </p>
+                           <p>Polymorphs (%) </p>
+                           <p> <input type="text" name="Polymorphs  (%)" /> </p>
+                           <p>Lymphocytes (%) </p>
+                           <p> <input type="text" name="Lymphocytes  (%)" /> </p>
+                           <p>Monocytes (%) </p>
+                           <p> <input type="text" name="Monocytes   (%)" /> </p>
+                           <p>Eosinophils (%) </p>
+                           <p> <input type="text" name="Eosinophils   (%)" /> </p>
+           
+                           <p> <input type="submit" value="submit" /> </p>
+                       </div>
+           
+                       <div class='col'>
+           
+           
+           
+           
+           
+                           <p>Basophils (%) </p>
+                           <p> <input type="text" name="Basophils  (%)" /> </p>
+                           <p>Platelet Count (lakhs/mm) </p>
+                           <p> <input type="text" name="Platelet Count  (lakhs/mm)" /> </p>
+                           <p>Direct (mg/dl) </p>
+                           <p> <input type="text" name="Direct    (mg/dl)" /> </p>
+                           <p>Indirect (mg/dl) </p>
+                           <p> <input type="text" name="Indirect     (mg/dl)" /> </p>
+                           <p>Total Protein (g/dl) </p>
+                           <p> <input type="text" name="Total Protein     (g/dl)" /> </p>
+           
+                           <p>Albumin (g/dl) </p>
+                           <p> <input type="text" name="Albumin   (g/dl)" /> </p>
+                           <p>Globulin (g/dl) </p>
+                           <p> <input type="text" name="Globulin  (g/dl)" /> </p>
+                           <p>AL.Phosphatase (U/L) </p>
+                           <p> <input type="text" name="AL.Phosphatase      (U/L)" /> </p>
+                           <p>SGOT/AST (U/L) </p>
+                           <p> <input type="text" name="SGOT/AST      (U/L)" /> </p>
+                           <p>USG Abdomen (diffuse liver or not) </p>
+                           <p> <input type="text" name="USG Abdomen (diffuse liver or  not)" /> </p>
+                           <p>Outcome </p>
+                           <p> <input type="text" name="Outcome" /> </p>
+           
+                       </div>
+           
+                   </div>
+           
+           
+           
+           
+           
+           
+               </form>
+               <p class="text-center pred"><b>The predicted value is {{prediction}}</b></p>
+              </div>
+    </section>
+
+</body>
+
+</html>
